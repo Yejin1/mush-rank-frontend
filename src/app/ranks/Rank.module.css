@@ -1,0 +1,82 @@
+.rank-container {
+    margin: 15px;
+    padding: 16px;
+
+}
+
+.rank-box {
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.767);
+    padding: 16px;
+}
+
+.rank-title {
+    font-size: 24px;
+    color: rgb(255, 255, 240);
+    margin-bottom: 12px;
+}
+
+.rank-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rank-header,
+.rank-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rank-header {
+    font-family: esamanru2;
+    color: rgb(249, 250, 242);
+    padding: 8px 0;
+    border-bottom: 2px solid #bebebe;
+}
+
+.rank-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+.rank-item-last {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0;
+}
+
+.rank-num {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    flex: 0.3;
+    font-weight: 500;
+}
+
+.dept {
+    flex: 1;
+    font-weight: 500;
+}
+
+.score1,
+.score2 {
+    width: 130px;
+    text-align: right;
+}

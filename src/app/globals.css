@@ -19,7 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: esamanru1, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +39,23 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+@font-face {
+  font-family: 'esamanru1';
+  font-weight: normal;
+  src: url('../fonts/esamanru_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'esamanru2';
+  font-weight: normal;
+  src: url('../fonts/esamanru_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'esamanru3';
+  font-weight: normal;
+  src: url('../fonts/esamanru_Bold.ttf') format('truetype');
 }
